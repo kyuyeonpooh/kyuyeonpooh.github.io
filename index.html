@@ -29,6 +29,7 @@
             height: 40px;
             background-color: #6ee387;
             text-align: center;
+            text-shadow: 2px 2px 2px green;
             font-family:"메이플스토리";
             font-size: 40px;
             color: white;
@@ -67,6 +68,52 @@
 			opacity: 1.0;
 		}
 
+		#logo-box{
+			display: inline;
+			float: left;
+			padding: 5px;
+			margin-left: 250px;
+			width: 210px;
+			height: 200px;
+			border: 3px double #5ccc6e;
+		}
+
+		#logo-box p{
+			width: 190px;
+			margin-top: 0px;
+			padding: 10px;
+			background-color: #5ccc6e;
+		}
+
+		#message-box{
+			display: inline;
+			margin-left: 20px;
+			padding: 20px;
+			float: left;
+			width: 580px;
+			background-color: #3be307;
+			color: white;
+			font-family: "메이플스토리";
+		}
+
+		#message-box h1{
+			font-size: 25px;
+		}
+
+		#message-box strong{
+			text-shadow: 2px 2px 2px green;
+			font-size: 1.2em;
+		}
+
+		#message-box ul{
+			padding-left: 10px;
+		}
+
+		#message-box ul li{
+			padding: 5px;
+			padding-left: 10px;
+		}
+
     </style>
 </head>
 <body>
@@ -75,8 +122,25 @@
     </div>
     <ul id="navi-bar">
 		<li><a id="about" href="index.html">홈</a></li>
-		<li><a id="gallery" href="gallery.html">갤러리</a></li>
 		<li><a id="games" href="games.html">게임</a></li>
+		<li><a id="music" href="music.html">음악</a></li>
+		<li><a id="gallery" href="gallery.html">갤러리</a></li>
+		<li><a id="handouts" href="handouts.html">원클릭 강의자료</a></li>
 	</ul>
+	<div id="logo-box">
+		<p align="middle"><img src="dog.png" alt="dog-logo"></p>
+	</div>
+	<div id="message-box">
+		<h1><strong>규연랜드</strong>에 방문해 주셔서 감사합니다.</h1>
+		<ul>안녕하세요? 궁금하신 점이 있으신가요?<p></p>
+			<li><strong>게임</strong> 메뉴에는 추억의 고전 플래시 게임을 즐기실 수 있습니다.</li>
+			<li><strong>갤러리</strong> 메뉴에서는 제 여러 사진을 감상하실 수 있습니다.</li>
+			<li><strong>원클릭 강의자료</strong>에서는 강의자료 목록을 한 눈에 보고, 다운받을 수 있습니다.</li>
+			<li><strong>음악</strong> 메뉴에서 다양한 게임 음악과 동영상을 즐기실 수 있습니다.</li>
+			<br/>이 페이지 방문해주신 모든 분이 행복해지셨으면 좋겠습니다.
+		</ul>
+	</div>
+	<div id="button-box">
+	</div>
 </body>
 </html>
