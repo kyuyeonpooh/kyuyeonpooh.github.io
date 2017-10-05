@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>규연이의 세상!</title>
+    <title>규연랜드에 어서오세요!</title>
     <style>
         @font-face{
             font-family: "메이플스토리";
             src: url(./Maplestory.ttf);
         }
+
+       	body{
+			background-image: url("./background.jpg");
+			background-size: cover;
+		}
+		
         #big-title-box{
             margin-top: 15px;
             margin-left: auto;
             margin-right: auto;
-            width: 60%;
-            border: 1px dotted #6ee387;
+            width: 800px;
+            border: 1px solid #6ee387;
         }
 
         #big-title{
@@ -21,31 +27,31 @@
             height: 40px;
             background-color: #6ee387;
             text-align: center;
-            font-family:"메이플스토리", "맑은 고딕";
+            font-family:"메이플스토리";
             font-size: 40px;
             color: white;
         }
 
-        ul#navi-bar{
+        #navi-bar{
             margin-top: 10px;
 			margin-left: auto;
 			margin-right: auto;
 			padding: 10px;
             border: 1px dotted #87ea55;
-			width: 57%;
+			width: 750px;
 			background-color: #87ea55;
 		}
 
-		ul#navi-bar li {    			
+		#navi-bar li {    			
 			display: inline;
 		}
 
-		ul#navi-bar li a{
+		#navi-bar li a{
 		    padding-top: 5px;
 			padding-bottom: 5px;
 			padding-left: 30px;
 			padding-right: 30px;
-		    font-family: "메이플스토리", "맑은 고딕";
+		    font-family: "메이플스토리";
 		    font-size: 20px;
 			text-decoration:none;
 			color: white;
@@ -63,7 +69,7 @@
 </head>
 <body>
     <div id="big-title-box">
-        <h2 id="big-title">규연이의 세상</h2>
+        <h2 id="big-title">규연랜드에 오신 것을 환영합니다!</h2>
     </div>
     <ul id="navi-bar">
 		<li><a id="about" href="about.html">소개</a></li>
