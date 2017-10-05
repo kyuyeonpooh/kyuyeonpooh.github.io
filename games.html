@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>규연이의 세상!</title>
+    <title>규연랜드에 어서오세요!</title>
     <style>
         @font-face{
             font-family: "메이플스토리";
             src: url(./Maplestory.ttf);
         }
+
+		body{
+			background-image: url("./background.jpg");
+			background-size: cover;
+		}
+
         #big-title-box{
             margin-top: 15px;
             margin-left: auto;
             margin-right: auto;
             width: 60%;
-            border: 1px dotted #6ee387;
+            border: 1px solid #6ee387;
         }
 
         #big-title{
@@ -21,12 +27,12 @@
             height: 40px;
             background-color: #6ee387;
             text-align: center;
-            font-family:"메이플스토리", "맑은 고딕";
+            font-family:"메이플스토리";
             font-size: 40px;
             color: white;
         }
 
-        ul#navi-bar{
+        #navi-bar{
             margin-top: 10px;
 			margin-left: auto;
 			margin-right: auto;
@@ -36,16 +42,16 @@
 			background-color: #87ea55;
 		}
 
-		ul#navi-bar li {    			
+		#navi-bar li {    			
 			display: inline;
 		}
 
-		ul#navi-bar li a{
+		#navi-bar li a{
 		    padding-top: 5px;
 			padding-bottom: 5px;
 			padding-left: 30px;
 			padding-right: 30px;
-		    font-family: "메이플스토리", "맑은 고딕";
+		    font-family: "메이플스토리";
 		    font-size: 20px;
 			text-decoration:none;
 			color: white;
@@ -53,26 +59,99 @@
 			opacity: 0.7;
 		}
 
-		ul#navi-bar li a#games, ul#navi-bar li a:hover{
+		#navi-bar li #games, ul#navi-bar li a:hover{
 		    background-color: white;
 			color: #5ee527;
 			opacity: 1.0;
 		}
 
+		#game-collection{
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 10px;
+			width: 55%;
+			height: 110px;
+			padding: 5px;
+			padding-left: 12px;
+			border: 1px dotted #5ccc6e;
+		}
+
+		.game-button{
+			margin: 10px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			width: 20%;
+			height: 25px;
+			padding: 10px;
+			display: inline;
+			float: left;
+			background-color: #5ccc6e;
+		}
+
+		.game-button a{
+			font-family: "메이플스토리";
+			font-size: 20px;
+			text-decoration: none;
+			color: white;
+			text-align: center;
+			display: block;
+		}
+
+		.game-button a:hover{
+			color: #5ccc6e;
+			background-color: white;
+		}
+		
+		iframe{
+			border: 1px solid #87ea55;
+			padding: 20px;
+		}
+
+		#game-box{
+			margin: auto;
+			width: 60%;
+			padding: 20px;
+			background-color: #6ee387;
+		}		
     </style>
 </head>
 <body>
     <div id="big-title-box">
-        <h2 id="big-title">규연이의 세상</h2>
+        <h2 id="big-title">규연랜드에 오신 것을 환영합니다!</h2>
     </div>
     <ul id="navi-bar">
 		<li><a id="about" href="about.html">소개</a></li>
 		<li><a id="gallery" href="gallery.html">갤러리</a></li>
 		<li><a id="games" href="games.html">게임</a></li>
 	</ul>
+	<div id="game-collection">
+		<div class="game-button" id="age-of-war">
+			<a href="./game_sources/age-of-war.html" target="game-frame">전쟁시대</a>
+		</div>
+		<div class="game-button" id="dad-and-me">
+			<a href="./game_sources/dad-and-me.html" target="game-frame">아빠와 나</a>
+		</div>
+		<div class="game-button" id="sonic">
+			<a href="./game_sources/sonic.html" target="game-frame">소닉 어드벤쳐</a>
+		</div>
+		<div class="game-button" id="territory-war">
+			<a href="./game_sources/territory-war.html" target="game-frame">영토전쟁</a>
+		</div>
+		<div class="game-button" id="maplestory">
+			<a href="./game_sources/maplestory.html" target="game-frame">메이플스토리</a>
+		</div>
+		<div class="game-button" id="bloon-defense">
+			<a href="./game_sources/bloon-defense.html" target="game-frame">풍선디펜스</a>
+		</div>
+		<div class="game-button" id="kid-escape-1">
+			<a href="./game_sources/kid-escape-1.html" target="game-frame">아이탈출1</a>
+		</div>
+		<div class="game-button" id="kid-escape-2">
+			<a href="./game_sources/kid-escape-2.html" target="game-frame">아이탈출2</a>
+		</div>
+	</div>
 	<p align="middle">
-		<embed src="./Sonic.swf" width="650" height="450" align="middle" quality="high">		
-		</embed>
-	</p>
+		<iframe name="game-frame" width="1000" height="780" frameborder="0"></iframe src="./game_sources/sonic.html">
+	</p>	
 </body>
 </html>
