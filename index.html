@@ -3,6 +3,7 @@
 <head>
     <title>규연랜드에 어서오세요!</title>
     <style>
+    
         @font-face{
             font-family: "메이플스토리";
             src: url(./Maplestory.ttf);
@@ -10,7 +11,8 @@
 
        	body{
 			background-image: url("./background.jpg");
-			background-size: cover;
+			background-attachment: fixed;
+			background-size: 100% 100%;
 		}
 		
         #big-title-box{
@@ -59,7 +61,7 @@
 			opacity: 0.7;
 		}
 
-		ul#navi-bar li a:hover{
+		#navi-bar li #about, #navi-bar li a:hover{
 		    background-color: white;
 			color: #5ee527;
 			opacity: 1.0;
