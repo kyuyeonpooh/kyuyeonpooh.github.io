@@ -67,31 +67,47 @@
 			color: #5ee527;
 			opacity: 1.0;
 		}
+		
+		#wrapper{
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			height: 500px;
+			border: 1px solid black;
+			
+		}
 
 		#logo-box{
 			display: inline;
 			float: left;
 			padding: 5px;
-			margin-left: 170px;
 			width: 210px;
 			height: 200px;
-			border: 3px double #5ccc6e;
+			margin: 10px;
+			border: 3px double #87ea55;
 		}
 
-		#logo-box p{
-			width: 190px;
-			margin-top: 0px;
-			padding: 10px;
-			background-color: #5ccc6e;
+		#logo-box img{
+			padding-top: 13px;
+			padding-bottom: 13px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: #87ea55;
+			margin: auto;
 		}
 
-		#message-box{
+		#message-box-wrapper{
 			display: inline;
-			margin-left: 20px;
-			padding: 20px;
 			float: left;
-			width: 580px;
-			background-color: #3be307;
+			margin-top: 10px;
+			padding: 5px;
+			border: 1px solid #5ccc6e;
+		}
+
+		#message-box{			
+			padding: 20px;			
+			width: 590px;
+			background-color: #5ccc6e;
 			color: white;
 			font-family: "메이플스토리";
 		}
@@ -127,20 +143,24 @@
 		<li><a id="gallery" href="gallery.html">갤러리</a></li>
 		<li><a id="handouts" href="handouts.html">원클릭 강의자료</a></li>
 	</ul>
-	<div id="logo-box">
-		<p align="middle"><img src="dog.png" alt="dog-logo"></p>
-	</div>
-	<div id="message-box">
-		<h1><strong>규연랜드</strong>에 방문해 주셔서 감사합니다.</h1>
-		<ul>안녕하세요? 궁금하신 점이 있으신가요?<p></p>
-			<li><strong>게임</strong> 메뉴에는 추억의 고전 플래시 게임을 즐기실 수 있습니다.</li>
-			<li><strong>갤러리</strong> 메뉴에서는 제 여러 사진을 감상하실 수 있습니다.</li>
-			<li><strong>원클릭 강의자료</strong>에서는 강의자료 목록을 한 눈에 보고, 다운받을 수 있습니다.</li>
-			<li><strong>음악</strong> 메뉴에서 다양한 게임 음악과 동영상을 즐기실 수 있습니다.</li>
-			<br/>이 페이지 방문해주신 모든 분이 행복해지셨으면 좋겠습니다.
-		</ul>
-	</div>
-	<div id="button-box">
+	<div id="wrapper">
+		<div id="logo-box">
+			<img src="dog.png" alt="dog-logo">
+		</div>
+		<div id="message-box-wrapper">
+			<div id="message-box">
+				<h1><strong>규연랜드</strong>에 방문해 주셔서 감사합니다.</h1>
+				<ul>안녕하세요? 궁금하신 점이 있으신가요?<p></p>
+					<li><strong>게임</strong> 메뉴에는 추억의 고전 플래시 게임을 즐기실 수 있습니다.</li>
+					<li><strong>갤러리</strong> 메뉴에서는 제 여러 사진을 감상하실 수 있습니다.</li>
+					<li><strong>원클릭 강의자료</strong>에서는 강의자료 목록을 한 눈에 보고, 다운받을 수 있습니다.</li>
+					<li><strong>음악</strong> 메뉴에서 다양한 게임 음악과 동영상을 즐기실 수 있습니다.</li>
+					<br/>이 곳을 방문해주신 여러분 모두 행복하세요!!!
+				</ul>
+			</div>
+		</div>
+		<div id="button-box">
+		</div>
 	</div>
 </body>
 </html>
