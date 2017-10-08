@@ -1,285 +1,295 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>규연랜드에 어서오세요!</title>
-    <style>
-    
-        @font-face{
-            font-family: "메이플스토리";
-            src: url(./Maplestory.ttf);
-        }
+    <head>
+        <title>규연랜드에 어서오세요!</title>
+        <style>
 
-       	body{
-			background-image: url("./background.jpg");
-			background-attachment: fixed;
-			background-size: 100% 100%;
-		}
-		
-        #big-title-box{
-            margin-top: 15px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 800px;
-            border: 2px solid #6ee387;
-        }
+            @font-face {
+                font-family: "메이플스토리";
+                src: url("./Maplestory.ttf");
+            }
 
-        #big-title{
-            margin: 10px;
-            padding: 30px;
-            height: 40px;
-            background-color: #6ee387;
-            text-align: center;
-            text-shadow: 2px 2px 2px green;
-            font-family:"메이플스토리";
-            font-size: 40px;
-            color: white;
-        }
+            body {
+                background-image: url("./background.jpg");
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
 
-        #navi-bar{
-            margin-top: 10px;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 10px;
-            border: 1px dotted #87ea55;
-			width: 750px;
-			background-color: #87ea55;
-		}
+            #big-title-box {
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 800px;
+                border: 2px solid #6ee387;
+            }
 
-		#navi-bar li {    			
-			display: inline;
-		}
+            #big-title {
+                margin: 10px;
+                padding: 30px;
+                height: 40px;
+                background-color: #6ee387;
+                text-align: center;
+                text-shadow: 2px 2px 2px green;
+                font-family: "메이플스토리";
+                font-size: 40px;
+                color: white;
+            }
 
-		#navi-bar li a{
-		    padding-top: 5px;
-			padding-bottom: 5px;
-			padding-left: 30px;
-			padding-right: 30px;
-		    font-family: "메이플스토리";
-		    font-size: 20px;
-			text-decoration: none;
-			color: white;
-			display: inline-block;
-			opacity: 0.7;
-		}
+            #navi-bar {
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                border: 1px dotted #87ea55;
+                width: 750px;
+                background-color: #87ea55;
+            }
 
-		#navi-bar li #about, #navi-bar li a:hover{
-		    background-color: white;
-			color: #5ee527;
-			opacity: 1.0;
-		}
-		
-		#wrapper{
-			margin-top: -10px;
-			margin-left: auto;
-			margin-right: auto;
-			width: 900px;
-			height: 700px;
-			border: 0px solid black;
-			
-		}
+            #navi-bar li {
+                display: inline;
+            }
 
-		#logo-box{
-			display: inline;
-			float: left;
-			padding: 5px;
-			width: 210px;
-			height: 200px;
-			margin: 10px;
-			border: 2px solid #6ee387;
-		}
+            #navi-bar li a {
+                padding: 5px 30px;
+                font-family: "메이플스토리";
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+                display: inline-block;
+                opacity: 0.7;
+            }
 
-		#logo-box img{
-			padding-top: 13px;
-			padding-bottom: 13px;
-			padding-left: 40px;
-			padding-right: 40px;
-			background-color: #6ee387;
-			margin: auto;
-		}
+            #navi-bar li #about,
+            #navi-bar li a:hover {
+                background-color: white;
+                color: #5ee527;
+                opacity: 1.0;
+            }
 
-		#message-box-wrapper{
-			display: inline;
-			float: left;
-			margin-top: 10px;
-			padding: 5px;
-			border: 2px solid #5ccc6e;
-		}
+            #wrapper {
+                margin-top: -10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 900px;
+                height: 700px;
+                border: 0 solid black;
 
-		#message-box{			
-			padding: 20px;			
-			width: 590px;
-			background-color: #5ccc6e;
-			color: white;
-			font-family: "메이플스토리";
-		}
+            }
 
-		#message-box h1{
-			font-size: 25px;
-		}
+            #logo-box {
+                display: inline;
+                float: left;
+                padding: 5px;
+                width: 210px;
+                height: 200px;
+                margin: 10px;
+                border: 2px solid #6ee387;
+            }
 
-		#message-box strong{
-			text-shadow: 2px 2px 2px green;
-			font-size: 1.2em;
-		}
+            #logo-box img {
+                padding: 13px 40px;
+                background-color: #6ee387;
+                margin: auto;
+            }
 
-		#message-box ul{
-			padding-left: 10px;
-		}
+            #message-box-wrapper {
+                display: inline;
+                float: left;
+                margin-top: 10px;
+                padding: 5px;
+                border: 2px solid #5ccc6e;
+            }
 
-		#message-box ul li{
-			padding: 5px;
-			padding-left: 10px;
-		}
+            #message-box {
+                padding: 20px;
+                width: 590px;
+                background-color: #5ccc6e;
+                color: white;
+                font-family: "메이플스토리";
+            }
 
-		#contact-box-wrapper{
-			margin: 10px;
-			margin-top: -110px;
-			display: inline;
-			float: left;
-			padding: 5px;
-			border: 2px solid #5ee527;
-		}
+            #message-box h1 {
+                font-size: 25px;
+            }
 
-		#contact-box{
-			margin: auto;
-			padding-top: 60px;
-			padding-bottom: 20px;
-			padding-left: 10px;
-			padding-right: 10px;
-			width: 190px;
-			height: 220px;
-			color: white;
-			background-color: #5ee527;
-		}
+            #message-box strong {
+                text-shadow: 2px 2px 2px green;
+                font-size: 1.2em;
+            }
 
-		#contact-box p{
-			font-size: 18px;
-			font-family: "메이플스토리";
-			text-shadow: 2px 2px 2px green;
-		}
+            #message-box ul {
+                padding-left: 10px;
+            }
 
-		#contact-box strong{
-			font-size: 16px;
-			font-family: "메이플스토리";
-		}
+            #message-box ul li {
+                padding: 5px 5px 5px 10px;
+            }
 
-		#button-box-wrapper{
-			display: inline;
-			float: left;
-			margin-top: 10px;
-			padding: 5px;
-			padding-left: 0px;
-			padding-right: 0px;
-			width: 640px;
-			height: 180px;
-			border: 2px solid #5ee527
-		}
+            #message-box ul .inner-text{
+                padding-left: 0px;
+                list-style: none;
+            }
 
-		.button-box{
-			display: inline;
-			float: left;
-			margin-left: 5px;
-			margin-right: 5px;
-			width: 31.7%;
-			height: 180px;
-			opacity: 0.6;
-		}
+            #contact-box-wrapper {
+                margin: -110px 10px 10px;
+                display: inline;
+                float: left;
+                padding: 5px;
+                border: 2px solid #5ee527;
+            }
 
-		.button-box:hover{
-			opacity: 1.0;
-		}
+            #contact-box {
+                margin: auto;
+                padding: 60px 10px 20px;
+                width: 190px;
+                height: 220px;
+                color: white;
+                background-color: #5ee527;
+            }
 
-		.button-box a {
-			font-family: "메이플스토리";
-			text-decoration: none;	
-		}
+            #contact-box p {
+                font-size: 18px;
+                font-family: "메이플스토리";
+                text-shadow: 2px 2px 2px green;
+            }
 
-		.button-box a:hover {
-			text-decoration: underline;
-		}
+            #contact-box strong {
+                font-size: 16px;
+                font-family: "메이플스토리";
+            }
 
-		#footer-wrapper{
-			margin: 10px;
-			margin-top: 0px;
-			float: left;
-			padding: 5px;
-			border: 2px solid #5ccc6e;
-		}
+            #button-box-wrapper {
+                display: inline;
+                float: left;
+                margin-top: 10px;
+                padding: 5px 0;
+                width: 640px;
+                height: 180px;
+                border: 2px solid #5ee527;
+            }
 
-		#footer{
-			width: 845px;
-			height: 80px;
-			padding: 10px;
-			text-align: right;
-			font-family: "메이플스토리";
-			color: white;
-			background-color: #5ccc6e;
-		}
+            .button-box {
+                display: inline;
+                float: left;
+                margin-left: 5px;
+                margin-right: 5px;
+                width: 31.7%;
+                height: 180px;
+                opacity: 0.6;
+            }
 
-    </style>
-</head>
-<body>
-    <div id="big-title-box">
-        <h2 id="big-title">규연랜드에 오신 것을 환영합니다!</h2>
-    </div>
-    <ul id="navi-bar">
-		<li><a id="about" href="index.html">홈</a></li>
-		<li><a id="games" href="games.html">게임</a></li>
-		<li><a id="music" href="music.html">음악</a></li>
-		<li><a id="gallery" href="gallery.html">갤러리</a></li>
-		<li><a id="handouts" href="handouts.html">원클릭 강의자료</a></li>
-	</ul>
-	<div id="wrapper">
-		<div id="logo-box">
-			<img src="dog.png" alt="dog-logo" />
-		</div>
-		<div id="message-box-wrapper">
-			<div id="message-box">
-				<h1><strong>규연랜드</strong>에 방문해 주셔서 감사합니다.</h1>
-				<ul>안녕하세요? 궁금하신 점이 있으신가요?<p></p>
-					<li><strong>게임</strong> 메뉴에는 추억의 고전 플래시 게임을 즐기실 수 있습니다.</li>
-					<li><strong>갤러리</strong> 메뉴에서는 제 여러 사진을 감상하실 수 있습니다.</li>
-					<li><strong>원클릭 강의자료</strong>에서는 강의자료 목록을 한 눈에 보고, 다운받을 수 있습니다.</li>
-					<li><strong>음악</strong> 메뉴에서 다양한 게임 음악과 동영상을 즐기실 수 있습니다.</li>
-					<br/>이 곳을 방문해주신 여러분 모두 행복하세요!!!
-				</ul>
-			</div>
-		</div>
-		<div id="contact-box-wrapper">
-			<div id="contact-box">
-				<p>Contact Information</p>
-				<strong>E-mail</strong><br/>
-				kyuyeonpooh@naver.com<br/><br/>
-				<strong>Phone</strong><br/>
-				010-5394-4792				
-			</div>
-		</div>
-		<div id="button-box-wrapper">
-			<div class="button-box" style="background-color :#87ea55">
-				<a href="http://cs.skku.edu" target="_blank" style="color: DarkBlue;">
-					<p align="middle"><img src="skku.png" width="90", height="100" alt="skku" /></p>
-					<p align="middle">성균관대 소프트웨어대학</p>				
-				</a>				
-			</div>
-			<div class="button-box" style="background-color :#5ee527" >
-				<a href="http://skku.edu" target="_blank" style="color: DarkBlue;">
-					<p align="middle"><img src="icampus.png" width="100", height="100" alt="icampus" /></p>
-					<p align="middle">아이캠퍼스</p>				
-				</a>				
-			</div>
-			<div class="button-box" style="background-color :#6ee387">
-				<a href="https://www.youtube.com" target="_blank" style="color: DarkRed;">
-					<p align="middle"><img src="you_tube.png" width="150", height="100" alt="youtube" /></p>
-					<p align="middle">유튜브</p>
-				</a>				
-			</div>
-		</div>
-		<div id="footer-wrapper">
-			<div id="footer">
-				<br/>이 페이지는 크롬에 최적화되어 있습니다.<br/>
-				<br/>소프트웨어실습4 2016314827 김규연
-			</div>
-		</div>
-	</div>
-</body>
+            .button-box:hover {
+                opacity: 1.0;
+            }
+
+            .button-box a {
+                font-family: "메이플스토리";
+                text-decoration: none;
+            }
+
+            .button-box a:hover {
+                text-decoration: underline;
+            }
+
+            #footer-wrapper {
+                margin: 0 10px 10px;
+                float: left;
+                padding: 5px;
+                border: 2px solid #5ccc6e;
+            }
+
+            #footer {
+                width: 845px;
+                height: 80px;
+                padding: 10px;
+                text-align: right;
+                font-family: "메이플스토리";
+                color: white;
+                background-color: #5ccc6e;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="big-title-box">
+            <h2 id="big-title">규연랜드에 오신 것을 환영합니다!</h2>
+        </div>
+        <ul id="navi-bar">
+            <li>
+                <a id="about" href="index.html">홈</a>
+            </li>
+            <li>
+                <a id="games" href="games.html">게임</a>
+            </li>
+            <li>
+                <a id="music" href="music.html">음악</a>
+            </li>
+            <li>
+                <a id="gallery" href="gallery.html">갤러리</a>
+            </li>
+            <li>
+                <a id="handouts" href="handouts.html">원클릭 강의자료</a>
+            </li>
+        </ul>
+        <div id="wrapper">
+            <div id="logo-box">
+                <img src="dog.png" alt="dog-logo"/>
+            </div>
+            <div id="message-box-wrapper">
+                <div id="message-box">
+                    <h1>
+                        <strong>규연랜드</strong>에 방문해 주셔서 감사합니다.</h1>
+                    <ul>
+                        <li class="inner-text">안녕하세요? 궁금하신 점이 있으신가요?</li>
+                        <li>
+                            <strong>게임</strong>
+                            메뉴에는 추억의 고전 플래시 게임을 즐기실 수 있습니다.</li>
+                        <li>
+                            <strong>갤러리</strong>
+                            메뉴에서는 제 여러 사진을 감상하실 수 있습니다.</li>
+                        <li>
+                            <strong>원클릭 강의자료</strong>에서는 강의자료 목록을 한 눈에 보고, 다운받을 수 있습니다.</li>
+                        <li>
+                            <strong>음악</strong>
+                            메뉴에서 다양한 게임 음악과 동영상을 즐기실 수 있습니다.</li>
+                        <li class="inner-text">이 곳을 방문해주신 여러분 모두 행복하세요!!!</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact-box-wrapper">
+                <div id="contact-box">
+                    <p>Contact Information</p>
+                    <strong>E-mail</strong><br/>
+                    kyuyeonpooh@naver.com<br/><br/>
+                    <strong>Phone</strong><br/>
+                    010-5394-4792
+                </div>
+            </div>
+            <div id="button-box-wrapper">
+                <div class="button-box" style="background-color :#87ea55">
+                    <a href="http://cs.skku.edu" target="_blank" style="color: DarkBlue;">
+                        <p style="text-align: center;"><img src="skku.png" width="90" height="100" alt="skku"/></p>
+                        <p style="text-align: center;">성균관대 소프트웨어대학</p>
+                    </a>
+                </div>
+                <div class="button-box" style="background-color :#5ee527">
+                    <a href="http://skku.edu" target="_blank" style="color: DarkBlue;">
+                        <p style="text-align: center;"><img src="icampus.png" width="100" height="100" alt="icampus"/></p>
+                        <p style="text-align: center;">아이캠퍼스</p>
+                    </a>
+                </div>
+                <div class="button-box" style="background-color :#6ee387">
+                    <a href="https://www.youtube.com" target="_blank" style="color: DarkRed;">
+                        <p style="text-align: center;"><img src="you_tube.png" width="150" height="100" alt="youtube"/></p>
+                        <p style="text-align: center;">유튜브</p>
+                    </a>
+                </div>
+            </div>
+            <div id="footer-wrapper">
+                <div id="footer">
+                    <br/>이 페이지는 크롬에 최적화되어 있습니다.<br/>
+                    <br/>소프트웨어실습4 2016314827 김규연
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
