@@ -1,0 +1,26 @@
+@font-face{
+            font-family: "메이플스토리";
+            src: url(../Maplestory.ttf);
+        }
+
+        h1{
+        	font-family: "메이플스토리";
+        	color: black;
+        	display: inline;
+        }
+		
+		#game-type{
+			font-family: "맑은 고딕", "메이플스토리";
+			margin-left: 100px;
+			display: inline;
+			font-size: 15px;
+		}
+
+        hr{
+        	border: 1px solid #87ea55;
+        }
+
+        div{
+        	padding: 20px;
+        	border: 0.5px solid #87ea55
+        }
