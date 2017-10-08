@@ -2,97 +2,13 @@
 <html>
     <head>
         <title>규연랜드에 어서오세요!</title>
+        <link href="title_boxes.css" rel="stylesheet" type="text/css">
+        <link href="select_contents.css" rel="stylesheet" type="text/css">
         <style>
-            @font-face {
-                font-family: "메이플스토리";
-                src: url("./Maplestory.ttf");
-            }
-            body {
-                background-image: url("./background.jpg");
-                background-attachment: fixed;
-                background-size: 100% 100%;
-            }
-            #big-title-box {
-                margin-top: 15px;
-                margin-left: auto;
-                margin-right: auto;
-                width: 800px;
-                border: 2px solid #6ee387;
-            }
-            #big-title {
-                margin: 10px;
-                padding: 30px;
-                height: 40px;
-                background-color: #6ee387;
-                text-align: center;
-                font-family: "메이플스토리";
-                text-shadow: 2px 2px 2px green;
-                font-size: 40px;
-                color: white;
-            }
-            #navi-bar {
-                margin-top: 10px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 10px;
-                border: 1px dotted #87ea55;
-                width: 750px;
-                background-color: #87ea55;
-            }
-            #navi-bar li {
-                display: inline;
-            }
-            #navi-bar li a {
-                padding: 5px 30px;
-                font-family: "메이플스토리";
-                font-size: 20px;
-                text-decoration: none;
-                color: white;
-                display: inline-block;
-                opacity: 0.7;
-            }
-            #navi-bar li #games,
-            #navi-bar li a:hover {
+            #navi-bar li #games {
                 background-color: white;
                 color: #5ee527;
                 opacity: 1.0;
-            }
-            #game-collection {
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 10px;
-                width: 980px;
-                height: 110px;
-                padding: 5px 5px 5px 20px;
-                border: 2px solid #5ccc6e;
-            }
-            .game-button {
-                margin: 5px 10px;
-                width: 200px;
-                height: 25px;
-                padding: 10px;
-                display: inline;
-                float: left;
-                background-color: #5ccc6e;
-            }
-            .game-button a {
-                font-family: "메이플스토리";
-                font-size: 20px;
-                text-decoration: none;
-                color: white;
-                text-align: center;
-                display: block;
-            }
-            .game-button a:hover {
-                color: #5ccc6e;
-                background-color: white;
-            }
-            iframe {
-                border: 2px solid #87ea55;
-                padding: 20px;
-                font-family: "메이플스토리";
-                font-size: 50px;
-                text-align: center;
             }
         </style>
     </head>
@@ -117,35 +33,34 @@
                 <a id="handouts" href="handouts.html">원클릭 강의자료</a>
             </li>
         </ul>
-        <div id="game-collection">
-            <div class="game-button" id="age-of-war">
+        <div id="collection">
+            <div class="button" id="age-of-war">
                 <a href="./game_sources/age-of-war.html" target="game-frame">전쟁시대</a>
             </div>
-            <div class="game-button" id="dad-and-me">
+            <div class="button" id="dad-and-me">
                 <a href="./game_sources/dad-and-me.html" target="game-frame">아빠와 나</a>
             </div>
-            <div class="game-button" id="sonic">
+            <div class="button" id="sonic">
                 <a href="./game_sources/sonic.html" target="game-frame">소닉 어드벤쳐</a>
             </div>
-            <div class="game-button" id="territory-war">
+            <div class="button" id="territory-war">
                 <a href="./game_sources/territory-war.html" target="game-frame">영토전쟁</a>
             </div>
-            <div class="game-button" id="maplestory">
+            <div class="button" id="maplestory">
                 <a href="./game_sources/maplestory.html" target="game-frame">메이플스토리</a>
             </div>
-            <div class="game-button" id="bloon-defense">
+            <div class="button" id="bloon-defense">
                 <a href="./game_sources/bloon-defense.html" target="game-frame">풍선디펜스</a>
             </div>
-            <div class="game-button" id="kid-escape-1">
+            <div class="button" id="kid-escape-1">
                 <a href="./game_sources/kid-escape-1.html" target="game-frame">아이탈출1</a>
             </div>
-            <div class="game-button" id="kid-escape-2">
+            <div class="button" id="kid-escape-2">
                 <a href="./game_sources/kid-escape-2.html" target="game-frame">아이탈출2</a>
             </div>
         </div>
         <p style="text-align: center">
-            <iframe name="game-frame" width="1000" height="780">
-            </iframe>
+            <iframe id="game-frame" name="game-frame" width="1000" height="780"></iframe>
         </p>
     </body>
 </html>

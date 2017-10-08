@@ -1,0 +1,41 @@
+#collection {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 980px;
+    height: 110px;
+    padding: 5px 5px 5px 20px;
+    border: 2px solid #5ccc6e;
+}
+
+.button {
+    margin: 5px 10px;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    display: inline;
+    float: left;
+    background-color: #5ccc6e;
+}
+
+.button a {
+    font-family: "메이플스토리";
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.button a:hover {
+    color: #5ccc6e;
+    background-color: white;
+}
+
+#game-frame {
+    border: 2px solid #87ea55;
+    padding: 20px;
+    font-family: "메이플스토리";
+    font-size: 50px;
+    text-align: center;
+}

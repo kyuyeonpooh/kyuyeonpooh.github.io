@@ -1,0 +1,141 @@
+#wrapper {
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 700px;
+    border: 0 solid black;
+
+}
+
+#logo-box {
+    display: inline;
+    float: left;
+    padding: 5px;
+    width: 210px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #6ee387;
+}
+
+#logo-box img {
+    padding: 13px 40px;
+    background-color: #6ee387;
+    margin: auto;
+}
+
+#message-box-wrapper {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #5ccc6e;
+}
+
+#message-box {
+    padding: 20px;
+    width: 590px;
+    background-color: #5ccc6e;
+    color: white;
+    font-family: "메이플스토리";
+}
+
+#message-box h1 {
+    font-size: 25px;
+}
+
+#message-box strong {
+    text-shadow: 2px 2px 2px green;
+    font-size: 1.2em;
+}
+
+#message-box ul {
+    padding-left: 10px;
+}
+
+#message-box ul li {
+    padding: 5px 5px 5px 10px;
+}
+
+#message-box ul .inner-text {
+    padding-left: 0;
+    list-style: none;
+}
+
+#contact-box-wrapper {
+    margin: -110px 10px 10px;
+    display: inline;
+    float: left;
+    padding: 5px;
+    border: 2px solid #5ee527;
+}
+
+#contact-box {
+    margin: auto;
+    padding: 60px 10px 20px;
+    width: 190px;
+    height: 220px;
+    color: white;
+    background-color: #5ee527;
+}
+
+#contact-box p {
+    font-size: 18px;
+    font-family: "메이플스토리";
+    text-shadow: 2px 2px 2px green;
+}
+
+#contact-box strong {
+    font-size: 16px;
+    font-family: "메이플스토리";
+}
+
+#button-box-wrapper {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    padding: 5px 0;
+    width: 640px;
+    height: 180px;
+    border: 2px solid #5ee527;
+}
+
+.button-box {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 31.7%;
+    height: 180px;
+    opacity: 0.6;
+}
+
+.button-box:hover {
+    opacity: 1.0;
+}
+
+.button-box a {
+    font-family: "메이플스토리";
+    text-decoration: none;
+}
+
+.button-box a:hover {
+    text-decoration: underline;
+}
+
+#footer-wrapper {
+    margin: 0 10px 10px;
+    float: left;
+    padding: 5px;
+    border: 2px solid #5ccc6e;
+}
+
+#footer {
+    width: 845px;
+    height: 80px;
+    padding: 10px;
+    text-align: right;
+    font-family: "메이플스토리";
+    color: white;
+    background-color: #5ccc6e;
+}

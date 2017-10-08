@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "메이플스토리";
+    src: url("./Maplestory.ttf");
+}
+
+body {
+    background-image: url("./background.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#big-title-box {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 2px solid #6ee387;
+}
+
+#big-title {
+    margin: 10px;
+    padding: 30px;
+    height: 40px;
+    background-color: #6ee387;
+    text-align: center;
+    text-shadow: 2px 2px 2px green;
+    font-family: "메이플스토리";
+    font-size: 40px;
+    color: white;
+}
+
+#navi-bar {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px dotted #87ea55;
+    width: 750px;
+    background-color: #87ea55;
+}
+
+#navi-bar li {
+    display: inline;
+}
+
+#navi-bar li a {
+    padding: 5px 30px;
+    font-family: "메이플스토리";
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+#navi-bar li a:hover {
+    background-color: white;
+    color: #5ee527;
+    opacity: 1.0;
+}
