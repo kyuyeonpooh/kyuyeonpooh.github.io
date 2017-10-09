@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>규연랜드에 어서오세요!</title>
+        <link href="title_boxes.css" rel="stylesheet" type="text/css">
+        <link href="select_contents.css" rel="stylesheet" type="text/css">
+        <style>
+            #navi-bar li #gallery {
+                background-color: white;
+                color: #5ee527;
+                opacity: 1.0;
+            }
+            #collection{
+                background-color:  rgba(92, 204, 110, .5);
+                width: 750px;
+                overflow-y: scroll;           
+            }
+            a{
+                opacity: 0.6;
+            }
+            a:hover{
+                opacity: 1.0;
+            }
+            img{
+                box-shadow: 3px 3px 3px green;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                margin-right: 18px;
+                border: 2px solid rgb(92, 204, 110);
+            }
+            iframe{
+                padding: 0px;
+                background-color:  rgba(135, 234, 85, .5);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="big-title-box">
+            <h2 id="big-title">규연랜드에 오신 것을 환영합니다!</h2>
+        </div>
+        <ul id="navi-bar">
+            <li>
+                <a id="about" href="index.html">홈</a>
+            </li>
+            <li>
+                <a id="games" href="games.html">게임</a>
+            </li>
+            <li>
+                <a id="music" href="music.html">뮤직</a>
+            </li>
+            <li>
+                <a id="gallery" href="gallery.html">갤러리</a>
+            </li>
+        </ul>
+        <div id="collection">
+            <a href="./gallery_sources/1.html" target="game-frame">
+                <img src="./gallery_sources/1.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/2.html" target="game-frame">
+                <img src="./gallery_sources/2.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/3.html" target="game-frame">
+                <img src="./gallery_sources/3.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/4.html" target="game-frame">
+                <img src="./gallery_sources/4.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/5.html" target="game-frame">
+                <img src="./gallery_sources/5.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/6.html" target="game-frame">
+                <img src="./gallery_sources/6.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/7.html" target="game-frame">
+                <img src="./gallery_sources/7.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/8.html" target="game-frame">
+                <img src="./gallery_sources/8.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/9.html" target="game-frame">
+                <img src="./gallery_sources/9.jpg" width="120" height="90"/>
+            </a>
+            <a href="./gallery_sources/10.html" target="game-frame">
+                <img src="./gallery_sources/10.jpg" width="120" height="90"/>
+            </a>
+        </div>
+        <p style="text-align: center">
+            <iframe id="game-frame" name="game-frame" width="750" height="580"></iframe>
+        </p>
+    </body>
+</html>

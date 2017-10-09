@@ -6,9 +6,11 @@
     height: 110px;
     padding: 5px 5px 5px 20px;
     border: 2px solid #5ccc6e;
+    background-color:  rgba(92, 204, 110, .5);
 }
 
-.button {
+.button {    
+    box-shadow: 3px 3px 3px green;
     margin: 5px 10px;
     width: 200px;
     height: 25px;
