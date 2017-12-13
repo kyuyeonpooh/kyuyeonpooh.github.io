@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>XML Presentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+td{font-size:9pt; text-decoration:none}	
+A:link {text-decoration:none;color:#000000}	
+A:active {text-decoration:none;color:#000000}	
+A:visited {text-decoration:none;color:#000000}	
+A:hover {text-decoration:none;color:#000000}
+#frmbody { width: 200; height: 200; overflow:auto; } 
+#box{width:100%; height:100%; overflow: auto; padding:3px; border:0 solid;} 
+</style>
+<script language="javascript">
+function trans(){
+	//텍스트 입력 상자의 문자열을 변수에 저장
+	xml = xmlsrc.xmlDocument.value;
+	xsl = stylesrc.xslDocument.value;
+	//XMLDOM객체 생성
+	xmldoc = new ActiveXObject("Microsoft.XMLDOM");
+	style = new ActiveXObject("MIcrosoft.XMLDOM");
+
+	//문자열로 부터 XMLDOM트리 생성
+	xmldoc.loadXML(xml);
+	style.loadXML(xsl);	
+	//오류 확인.
+	if (xmldoc.parseError.errorCode != 0){
+		err = "XML문서에 오류가 있습니다. \n\n";
+		err += "오류설명 : " + xmldoc.parseError.reason + "\n\n";
+		err += "소스코드 : " + xmldoc.parseError.srcText
+		alert(err);
+		return false;
+	}
+	if (style.parseError.errorCode != 0){
+		err = "XML문서에 오류가 있습니다. \n\n";
+		err += "오류설명 : " + style.parseError.reason + "\n\n";
+		err += "소스코드 : " + style.parseError.srcText
+		alert(err);
+		return false;
+	}	
+	//XML문서를 XSL문서로 필터링
+	return xmldoc.transformNode(style);
+}
+function writeResult(){
+	str = trans();
+    if (str != null) {
+	//결과창에 출력.
+		result.document.open();
+		result.document.write(trans());
+		result.document.close();
+	}
+}
+function viewMsg(){
+  str = trans();
+  if (str != null) {
+    alert(str);
+  }
+}
+</script>
+
+</head>
+<body style="margin:0" bgcolor="#C0C0C0">
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+	<tr height="30">
+		<td bgcolor="#96B1C4">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="left" style="font-size:12pt;color:#FFFFFF; padding-left:5pt; font-weight:bold">XSLT Viewer 1.0</td>
+					<td align="center">
+						<input type="button" onClick="writeResult()" value="XML문서 변환">
+						<input type="button" onClick="viewMsg()" value="소스보기">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr height="0">
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+				<tr>
+					<td width="39%">
+						<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+							<tr height="50%">
+								<td><iframe border="0" frameborder="0" scrolling="auto" src="xmlsrc.htm" name="xmlsrc" style="width:100%;height:100%"></iframe></td>
+							</tr>
+							<tr height="50%">
+								<td><iframe border="0" frameborder="0" scrolling="auto" src="style.htm" name="stylesrc" style="width:100%;height:100%"></iframe></td>
+							</tr>
+						</table>
+					</td>
+					<td width="61%"><iframe border="0" frameborder="0" scrolling="auto" src="" name="result" style="width:100%;height:100%"></iframe></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+
+<!--
+<frameset rows="20,*" frameborder="no" border="0" framespacing="0">
+	<frame scrolling="no" noresize src="crest.htm">
+	<frameset cols="350, 400, *" frameborder="YES" border="1" framespacing="1" bordercolor="#006666"> 
+		<frameset rows="50%,*" frameborder="YES" border="1" framespacing="1" bordercolor="#006666"> 
+			<frame name="xmlsrc" scrolling="auto"  src="xmlsrc.htm" >
+			<frame name="style" scrolling="auto"  src="style.htm">
+		</frameset>
+		<frame name="result" scrolling="auto" src="result.htm">
+		<frame name="resulttmp" scrolling="auto" src="" frameborder=0>
+	</frameset>
+</frameset>
+<noframes></noframes>
+-->
+</html>
+
+

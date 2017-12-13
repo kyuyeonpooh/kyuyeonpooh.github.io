@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- File Name: noname.xml -->
+<?xml-stylesheet type="text/xsl" href="./xslt_xsl.xsl"?>
+<root>
+<Basic>
+	<Title> </Title>
+	<Sign1> </Sign1>
+	<Sign2> </Sign2>
+	<Sign3> </Sign3>
+	<Sign4> </Sign4>
+	<Sign5> </Sign5>
+	<Sign6> </Sign6>
+	<Sign7> </Sign7>
+	<Sign8> </Sign8>
+	<Sign9> </Sign9>
+	<Sign10> </Sign10>
+	<SignDate1> </SignDate1>
+	<SignDate2> </SignDate2>
+	<SignDate3> </SignDate3>
+	<SignDate4>	</SignDate4>
+	<SignDate5>	</SignDate5>
+	<SignDate6>	</SignDate6>
+	<SignDate7>	</SignDate7>
+	<SignDate8>	</SignDate8>
+	<SignDate9>	</SignDate9>
+	<SignDate10> </SignDate10>
+	<Auditor>	</Auditor>
+	<Minuter>	</Minuter>
+	<Referencer>  </Referencer>
+	<WriteDate> </WriteDate>
+	<KeepYear> </KeepYear>
+	<SecurityGrad> </SecurityGrad>
+	<Post> </Post>
+	<Writer> </Writer>
+	<DocumentNo> </DocumentNo>
+</Basic>
+<Main>
+	<BookNo1></BookNo1>
+	<BookNo2></BookNo2>
+	<SerialNo1></SerialNo1>
+	<SerialNo2></SerialNo2>
+	<SerialNo3></SerialNo3>
+	<SerialNo4></SerialNo4>
+	<SerialNo5></SerialNo5>
+	<SerialNo6></SerialNo6>
+	<ProviderRegistrationNo></ProviderRegistrationNo>
+	<ProviderCompanyName></ProviderCompanyName>
+	<ProviderCEOName></ProviderCEOName>
+	<ProviderCompanyAddress></ProviderCompanyAddress>
+	<ProviderBusinessStatus></ProviderBusinessStatus>
+	<ProviderItem></ProviderItem>
+	<ReceiverRegistrationNo1></ReceiverRegistrationNo1>
+	<ReceiverRegistrationNo2></ReceiverRegistrationNo2>
+	<ReceiverRegistrationNo3></ReceiverRegistrationNo3>
+	<ReceiverRegistrationNo4></ReceiverRegistrationNo4>
+	<ReceiverRegistrationNo5></ReceiverRegistrationNo5>
+	<ReceiverRegistrationNo6></ReceiverRegistrationNo6>
+	<ReceiverRegistrationNo7></ReceiverRegistrationNo7>
+	<ReceiverRegistrationNo8></ReceiverRegistrationNo8>
+	<ReceiverRegistrationNo9></ReceiverRegistrationNo9>
+	<ReceiverRegistrationNo10></ReceiverRegistrationNo10>
+	<ReceiverCompanyName></ReceiverCompanyName>
+	<ReceiverCEOName></ReceiverCEOName>
+	<ReceiverCompanyAddress></ReceiverCompanyAddress>
+	<ReceiverBusinessStatus></ReceiverBusinessStatus>
+	<ReceiverItem></ReceiverItem>
+	<WriteYear></WriteYear>
+	<WriteMonth></WriteMonth>
+	<WriteDay></WriteDay>
+	<BlankCount></BlankCount>
+	<SupplyCost11></SupplyCost11>
+	<SupplyCost10></SupplyCost10>
+	<SupplyCost9></SupplyCost9>
+	<SupplyCost8></SupplyCost8>
+	<SupplyCost7></SupplyCost7>
+	<SupplyCost6></SupplyCost6>
+	<SupplyCost5></SupplyCost5>
+	<SupplyCost4></SupplyCost4>
+	<SupplyCost3></SupplyCost3>
+	<SupplyCost2></SupplyCost2>
+	<SupplyCost1></SupplyCost1>
+	<SupplyTax10></SupplyTax10>
+	<SupplyTax9></SupplyTax9>
+	<SupplyTax8></SupplyTax8>
+	<SupplyTax7></SupplyTax7>
+	<SupplyTax6></SupplyTax6>
+	<SupplyTax5></SupplyTax5>
+	<SupplyTax4></SupplyTax4>
+	<SupplyTax3></SupplyTax3>
+	<SupplyTax2></SupplyTax2>
+	<SupplyTax1></SupplyTax1>
+	<SupplyRemark></SupplyRemark>
+	<DescMonth1></DescMonth1>
+	<DescDay1></DescDay1>
+	<DescItem1></DescItem1>
+	<DescStandard1></DescStandard1>
+	<DescQuantity1></DescQuantity1>
+	<DescUnitCost1></DescUnitCost1>
+	<DescSupplyCost1></DescSupplyCost1>
+	<DescSupplyTax1></DescSupplyTax1>
+	<DescRemark1></DescRemark1>
+	<DescMonth2></DescMonth2>
+	<DescDay2></DescDay2>
+	<DescItem2></DescItem2>
+	<DescStandard2></DescStandard2>
+	<DescQuantity2></DescQuantity2>
+	<DescUnitCost2></DescUnitCost2>
+	<DescSupplyCost2></DescSupplyCost2>
+	<DescSupplyTax2></DescSupplyTax2>
+	<DescRemark2></DescRemark2>
+	<DescMonth3></DescMonth3>
+	<DescDay3></DescDay3>
+	<DescItem3></DescItem3>
+	<DescStandard3></DescStandard3>
+	<DescQuantity3></DescQuantity3>
+	<DescUnitCost3></DescUnitCost3>
+	<DescSupplyCost3></DescSupplyCost3>
+	<DescSupplyTax3></DescSupplyTax3>
+	<DescRemark3></DescRemark3>
+	<DescMonth4></DescMonth4>
+	<DescDay4></DescDay4>
+	<DescItem4></DescItem4>
+	<DescStandard4></DescStandard4>
+	<DescQuantity4></DescQuantity4>
+	<DescUnitCost4></DescUnitCost4>
+	<DescSupplyCost4></DescSupplyCost4>
+	<DescSupplyTax4></DescSupplyTax4>
+	<DescRemark4></DescRemark4>
+	<TotalCost></TotalCost>
+	<Cash></Cash>
+	<Check></Check>
+	<Draft></Draft>
+	<NoMoney></NoMoney>
+</Main>
+</root>
