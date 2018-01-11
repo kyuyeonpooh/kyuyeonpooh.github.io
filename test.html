@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<p id="source"></p>
+======================================
+<p id="demo"></p>
+
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+};
+xhttp.open("GET", "books.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var xmlDoc = xml.responseXML;
+    var x = xmlDoc.getElementsByTagName('price')[0];
+    var y = x.childNodes[0];
+    document.getElementById("demo").innerHTML =
+    y.nodeValue; 
+    
+    alert(y.nodeValue);
+    
+        
+ var s = new XMLSerializer();
+ var newXmlStr = s.serializeToString(xmlDoc);
+   
+  document.getElementById("source").innerText =newXmlStr;
+}
+</script>
+
+</body>
+</html>
