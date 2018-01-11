@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv=content-type>
+	<meta name=generator content="mshtml 8.00.6001.18852">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> admission0723152 </title>
+	<link rel="shortcut icon" href="http://www.3ksoftware.com/favicon.ico"/>
+	<link type="text/css" href="http://www.3ksoaxml.com/xdrp/baseXML/lib/css/soaxml_common.css" rel="stylesheet"  media="screen"/>
+	<link type="text/css" href="http://www.3ksoaxml.com/xdrp/baseXML/lib/css/uniform.default.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="http://www.3ksoaxml.com/xdrp/baseXML/lib/css/jquery-ui.1.10.3.smoothness.css" rel="stylesheet" media="screen" />
+	<style>
+		body, p, td		{font-size:12pt}
+	</style>
+<style>
+body{background:#ababab;}
+.table01{-webkit-box-shadow: 0 2px 8px #000;
+-moz-box-shadow: 0 2px 8px #000;
+-box-shadow: 0 2px 8px #000;box-shadow: 0 2px 8px #000;
+background-color:#ffffff;}
+.cell05{background-color:#b5e0e3;}
+.cell04{border-bottom:4px dotted #ee3d23;}
+.cell03{border-top:4px dotted #ee3d23;}
+.cell01{font-weight:bold;color:#EE3D23;}
+.cell02{color:#792617}
+.cell06{color:#792617; padding-left:10px;}
+</style>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/bxControl.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/bxCommon.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/jquery-ui.1.10.3.min.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/jquery.uniform.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/jquery.timepicker.js"></script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/jSignature.custom.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(function(){
+			$("input, textarea, select, button").uniform();
+			$( "#datepicker_20150723_151511" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151623" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151627" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151800" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151805" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151906" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_151910" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( "#datepicker_20150723_152021" ).datepicker({dateFormat: "yy-mm-dd", changeMonth:true, changeYear:true, yearRange:"1950:2050"});
+$( ".bxTimePicker" ).timepicker({ 'scrollDefaultNow': true });
+		});
+	</script>
+	<script type="text/javascript">
+		function basexml_checktype() {
+			bxfSetValComboBox("root/graduated02",'<xsl:value-of select="root/graduated02"/>');
+bxfSetValComboBox("root/gaduated04",'<xsl:value-of select="root/gaduated04"/>');
+bxfSetValComboBox("root/gpa066",'<xsl:value-of select="root/gpa066"/>');
+		}
+	</script>
+	<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/baseXML/lib/scripts/bxFormForMongo.js"></script>
+</head>
+<body>
+<form name="admission0723152">
+	<textarea  id="calXMLcontent" name="calXMLcontent" style="display:none"> </textarea>
+	<textarea  id="inXMLcontent" name="inXMLcontent" style="display:none"> </textarea>
+	<textarea  id="calTextcontent" name="calTextcontent" style="display:none"> </textarea>
+	<textarea  id="outXMLcontent" name="outXMLcontent" style="display:none"> </textarea>
+	<textarea  id="outXMLurl" name="outXMLurl" style="display:none"> </textarea>
+	<input type="hidden" name="xmlFileLink" id="xmlFileLink" value=""/>
+	<input type="hidden" name="title" id="title" value="admission0723152"/>
+	<input type="hidden" name="savefilepath" value="">
+	<input type="hidden" name="imagesavepath" value="">
+	<input type="hidden" name="imagematchinfo" value="">
+	<input type="hidden" name="H_DownloadFilePath" value="">
+	<input type="hidden" name="DownloadFilePath" value="">
+	<input type="hidden" name="H_root/lastname" value=""/>
+<input type="hidden" name="H_root/firstname" value=""/>
+<input type="hidden" name="H_root/streetaddress" value=""/>
+<input type="hidden" name="H_root/city" value=""/>
+<input type="hidden" name="H_root/state" value=""/>
+<input type="hidden" name="H_root/zipcode" value=""/>
+<input type="hidden" name="H_root/emailaddress" value=""/>
+<input type="hidden" name="H_root/phonenumber" value=""/>
+<input type="hidden" name="H_root/dateofbirth" value=""/>
+<input type="hidden" name="H_root/nameofschool01" value=""/>
+<input type="hidden" name="H_root/streetaddress-2" value=""/>
+<input type="hidden" name="H_root/city2" value=""/>
+<input type="hidden" name="H_root/state02" value=""/>
+<input type="hidden" name="H_root/zipcode02" value=""/>
+<input type="hidden" name="H_root/firstattended01" value=""/>
+<input type="hidden" name="H_root/lastattended02" value=""/>
+<input type="hidden" name="H_root/graduated02" value=""/>
+<input type="hidden" name="H_root/gpa1" value=""/>
+<input type="hidden" name="H_root/nameofschool03" value=""/>
+<input type="hidden" name="H_root/streetaddress03" value=""/>
+<input type="hidden" name="H_root/city03" value=""/>
+<input type="hidden" name="H_root/state03" value=""/>
+<input type="hidden" name="H_root/zipcode03" value=""/>
+<input type="hidden" name="H_root/firstattended02" value=""/>
+<input type="hidden" name="H_root/lastattended03" value=""/>
+<input type="hidden" name="H_root/gaduated04" value=""/>
+<input type="hidden" name="H_root/gpa04" value=""/>
+<input type="hidden" name="H_root/nameofschoo04" value=""/>
+<input type="hidden" name="H_root/streetaddress04" value=""/>
+<input type="hidden" name="H_root/city04" value=""/>
+<input type="hidden" name="H_root/state04" value=""/>
+<input type="hidden" name="H_root/zipcode04" value=""/>
+<input type="hidden" name="H_root/firstattended04" value=""/>
+<input type="hidden" name="H_root/lastattenend04" value=""/>
+<input type="hidden" name="H_root/graduated05" value=""/>
+<input type="hidden" name="H_root/gpa066" value=""/>
+<input type="hidden" name="H_root/satscore077" value=""/>
+<input type="hidden" name="H_root/dateoftest068" value=""/>
+<P>
+<TABLE class=table01 style="WIDTH: 700px" borderColor=#000000 cellSpacing=0 cellPadding=3 align=center border=0>
+<COLGROUP>
+<COL width=700>
+</COL>
+</COLGROUP>
+<TBODY>
+<TR>
+<TD>
+<P>
+<IMG src="http://www.uccxml.com/SOAXML/xcms/sys/client/kr/usr/sjw/uploads/images/admission.png" width=700 height=180>
+</P>
+<P>
+<TABLE style="WIDTH: 650px" borderColor=#000000 cellSpacing=0 cellPadding=3 align=center border=0>
+<COLGROUP>
+<COL>
+</COL>
+</COLGROUP>
+<TBODY>
+<TR>
+<TD>
+<P>
+<IMG src="http://www.uccxml.com/SOAXML/xcms/sys/client/kr/usr/sjw/uploads/images/p0723203png_01.png">
+</P>
+</TD>
+</TR>
+<TR>
+<TD>
+<P align=center>
+<TABLE style="WIDTH: 570px" borderColor=#000000 cellSpacing=0 cellPadding=3 align=center border=0>
+<COLGROUP>
+<COL width="32%">
+</COL>
+<COL width="68%">
+</COL>
+</COLGROUP>
+<TBODY>
+<TR>
+<TD class=cell01 colSpan=2>
+<P>PERSONAL INFORMATION
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>LAST NAME :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/lastname>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>FIRST NAME :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/firstname>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>STREET ADDRESS :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/streetaddress>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>CITY :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/city>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>STATE :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/state>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>ZIP CODE :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/zipcode>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>EMAIL ADDRESS :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/emailaddress>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>PHONE NUMBER :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT name=root/phonenumber>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>DATE OF BIRTH :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT id=datepicker_20150723_151511 style="WIDTH: 100px" name=root/dateofbirth>
+</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+</TD>
+</TR>
+<TR>
+<TD>
+<P>
+<IMG src="http://www.uccxml.com/SOAXML/xcms/sys/client/kr/usr/sjw/uploads/images/p0723203png_03.png">
+</P>
+</TD>
+</TR>
+<TR>
+<TD>
+<P>
+<TABLE id=123 style="WIDTH: 570px" borderColor=#000000 cellSpacing=0 cellPadding=3 align=center border=0>
+<COLGROUP>
+<COL width="30%">
+</COL>
+<COL width="20%">
+</COL>
+<COL width="30%">
+</COL>
+<COL width="20%">
+</COL>
+</COLGROUP>
+<TBODY>
+<TR>
+<TD class=cell01 colSpan=4>
+<P>EDUCATION
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell06 colSpan=4>
+<FONT size=2>List your previous schools, beginning with the most recent.
+</FONT>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>NAME OF SCHOOL :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/nameofschool01>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>STREET ADDRESS :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/streetaddress-2>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>CITY :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/city2>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>STATE :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/state02>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>ZIP CODE :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/zipcode02>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>FIRST ATTENDED :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT id=datepicker_20150723_151623 style="WIDTH: 100px" name=root/firstattended01>
+</P>
+</TD>
+<TD class=cell02>
+<P>LAST ATTENDED :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT id=datepicker_20150723_151627 style="WIDTH: 100px" name=root/lastattended02>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>GRADUATED :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<SELECT name=root/graduated02>
+<OPTION selected value=yes>yes
+</OPTION>
+<OPTION value=no>no
+</OPTION>
+</SELECT>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>G.P.A. :
+</P>
+</TD>
+<TD colSpan=3>
+<P>
+</P>
+<P>
+</P>
+<P>
+<INPUT name=root/gpa1>
+</P>
+</TD>
+</TR>
+<TR>
+<TD style="BORDER-TOP: 1px; BORDER-RIGHT: 1px; VERTICAL-ALIGN: top; BORDER-BOTTOM: 1px; BORDER-LEFT: 1px" colSpan=4>
+<P>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell03 colSpan=4>
+<P>
+</P>
+</TD>
+</TR>
+<TR>
+</TR>
+<TR>
+<TD class=cell02>NAME OF SCHOOL :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/nameofschool03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>STREET ADDRESS :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/streetaddress03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>CITY :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/city03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>STATE :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/state03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>ZIP CODE :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/zipcode03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>FIRST ATTENDED :
+</TD>
+<TD>
+<INPUT id=datepicker_20150723_151800 style="WIDTH: 100px" name=root/firstattended02>
+</TD>
+<TD class=cell02>LAST ATTENDED :
+</TD>
+<TD>
+<INPUT id=datepicker_20150723_151805 style="WIDTH: 100px" name=root/lastattended03>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>GRADUATED :
+</TD>
+<TD colSpan=3>
+<SELECT name=root/gaduated04>
+<OPTION selected value=yes>yes
+</OPTION>
+<OPTION value=no>no
+</OPTION>
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>G.P.A. :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/gpa04>
+</TD>
+</TR>
+<TR>
+<TD class=cell04 colSpan=4>
+</TD>
+</TR>
+<TR>
+<TD colSpan=4>
+<P>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>NAME OF SCHOOL :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/nameofschoo04>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>STREET ADDRESS :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/streetaddress04>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>CITY :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/city04>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>STATE :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/state04>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>ZIP CODE :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/zipcode04>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>FIRST ATTENDED :
+</TD>
+<TD>
+<INPUT id=datepicker_20150723_151906 style="WIDTH: 100px" name=root/firstattended04>
+</TD>
+<TD class=cell02>
+<P>LAST ATTENDED :
+</P>
+</TD>
+<TD>
+<P>
+<INPUT id=datepicker_20150723_151910 style="WIDTH: 100px" name=root/lastattenend04>
+</P>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>GRADUATED :
+</TD>
+<TD colSpan=3>
+<INPUT name=root/graduated05>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>G.P.A. :
+</TD>
+<TD colSpan=3>
+<SELECT name=root/gpa066>
+<OPTION selected value=y>yes
+</OPTION>
+<OPTION value=n>no
+</OPTION>
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD class=cell02>
+<P>SAT SCORE
+</P>
+<P>(COMBINED) :
+</P>
+</TD>
+<TD>
+<INPUT style="WIDTH: 94px" name=root/satscore077>
+</TD>
+<TD class=cell02>DATE OF TEST : 
+</TD>
+<TD>
+<INPUT id=datepicker_20150723_152021 style="WIDTH: 100px" name=root/dateoftest068>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+</TD>
+</TR>
+<TR style="HEIGHT: 60px">
+<TD class=cell05 style="VERTICAL-ALIGN: top">
+<P>
+</P>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</P>
+<P>
+</P>
+</form>
+<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/sys/lib/bxComponent/tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="http://www.3ksoaxml.com/xdrp/sys/lib/bxComponent/bxComponent.js"></script>
+<div class="docBtn_list">
+	<input type="button" value="Save" onclick="javascript:bxfXmlSaveMongodb();" />  
+	<input type="button" value="List" onclick="javascript:bxfXmlListMongodb();" />  
+	<input type="button" value="Search" onclick="javascript:bxfXmlSearchMongodb();" />
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		loaded();
+	});
+</script>
+<script LANGUAGE="JavaScript" FOR="XMLfile" EVENT="XMLdown(lFile)">
+	if(lFile != "" ) {
+		document.forms[0].outXMLcontent.value=lFile;
+		document.title=lFile;
+	}
+</script>
+<script LANGUAGE="JScript" FOR="XMLfile" EVENT="XMLupdate(lFile)">
+	if(lFile != "" ) {
+		bxfXmlDisplay(lFile);
+	}
+</script>
+</body>
+</html>
